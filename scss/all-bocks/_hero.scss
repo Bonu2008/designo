@@ -1,0 +1,62 @@
+.hero {
+    padding-top: 20px;
+    padding-bottom: 160px;
+
+    .container {
+        background-image: url("../imges/Oval.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1111px;
+        height: 640px;
+    }
+
+    &__heading {
+        width: 540px;
+        height: 165px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        margin-left: 95px;
+        padding-top: 145px;
+    }
+
+    &__text {
+        width: 445px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-left: 95px;
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+
+    &__link {
+        color: #333136;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-left: 95px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding: 15px;
+    }
+
+    &__link__1 {
+        border-radius: 8px;
+        background: #FFF;
+
+        &:hover {
+            color: #ffffff;
+            background-color: #b04a1b;
+        }
+    }
+}
